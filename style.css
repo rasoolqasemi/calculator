@@ -9,6 +9,7 @@ body , html{
 
 .container{
     height: 100%;
+    width: 100%;
     display: grid;
     background-color:#ededed;
     grid-template-columns: 1fr 320px;
@@ -80,9 +81,9 @@ body , html{
     margin-top: 30px;
     margin-right: 15px;
     grid-area: zer0;
-    position: absolute;
-    top: 87px;
-    right: 330px;
+    width: 100%;
+    display: flex;
+    justify-content: right;
     }
 
 .history{
@@ -90,6 +91,8 @@ body , html{
         height: 300px;
         grid-area: history;
         margin-top: 17px
+        
+        
     }
 
 .span-history-class{
