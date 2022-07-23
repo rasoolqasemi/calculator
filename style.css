@@ -10,6 +10,8 @@ body , html{
 .container{
     height: 100%;
     width: 100%;
+    min-width: 522px;
+    min-height: 406px;
     display: grid;
     background-color:#E6E6E6;
     grid-template-columns: 1fr 320px;
@@ -195,6 +197,16 @@ body , html{
 .grid25{
         font-size: 25px;
         background-color: #B2B1B9;
+    }
+
+    .division {
+        width: 20px;
+        height: 20px;
+    }
+
+    .plus-mius {
+        width: 20px;
+        height: 20px;
     }
 
 .close:hover{
