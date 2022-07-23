@@ -11,7 +11,7 @@ body , html{
     height: 100%;
     width: 100%;
     display: grid;
-    background-color:#ededed;
+    background-color:#E6E6E6;
     grid-template-columns: 1fr 320px;
     grid-template-rows: 30px 50px 3fr 1fr 7fr;
     grid-template-areas: 
@@ -37,6 +37,16 @@ body , html{
     width: 40px;
     height: 30px;
     border:none;
+    background-color: #E6E6E6;
+}
+
+.restore-down {
+    width: 16px;
+    height: 16px;
+
+
+    margin-top: 5px;
+
 }
 
 .button-header{
@@ -65,7 +75,11 @@ body , html{
     border: none;
     width: 40px;
     height: 37px;
-    background-color: #ededed;
+    background-color: #E6E6E6;
+}
+.img-but {
+    width: 20px;
+    height: 18px;
 }
 
 .standard-p{
@@ -126,6 +140,7 @@ body , html{
         border: none;
         width: 7%;
         height: 40px;
+        background-color: #E6E6E6;
         
     }
 
@@ -170,7 +185,7 @@ body , html{
 
 .number{
         font-size: 20px;
-        background-color: white ;
+        background-color: #FAFAFA ;
     }
 
 .size{
@@ -183,9 +198,10 @@ body , html{
     }
 
 .close:hover{
-        background-color: red;
+        background-color:#E81123;
+        color: white;
     }
 
 .different-color{
-        background-color: #e1e1e1;
+        background-color: #F0F0F0;
     }
