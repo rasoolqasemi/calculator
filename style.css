@@ -146,6 +146,10 @@ body , html{
         
     }
 
+    .options button:hover{
+        background-color: silver;
+    }
+
 .keyboard {
         height: 100%;
         display: grid;
